@@ -1,0 +1,28 @@
+.botao {
+  display: inline-block;
+  padding: 16px 24px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--cor-p5);
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+  position: relative;
+}
+
+.botao::after {
+  content: "";
+  display: block;
+  height: 52px;
+  width: 52px;
+  background: url("../img/dec/bottom-left.svg") no-repeat center;
+  position: absolute;
+  top: 230px;
+  left: -200px;
+}
+
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
