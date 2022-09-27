@@ -1,0 +1,48 @@
+.article-bg {
+  background-color: var(--cor-12);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.tecnologia-avancada {
+  margin-inline: auto;
+  padding-inline: 80px;
+}
+
+.tecnologia-avancada h4 {
+  padding-bottom: 20px;
+}
+
+.tecnologia-avancada h1 {
+  padding-bottom: 32px;
+}
+
+.tecnologia-avancada p {
+  padding-bottom: 20px;
+}
+
+.tecnologia-avancada a {
+  display: inline-block;
+  padding-bottom: 80px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.diferenciais h3 {
+  color: white;
+}
+
+.tecnologia-avancada a {
+  color: var(--cor-p1);
+}
+
+.imagem-tecnologia {
+  width: 700px;
+  height: 1120px;
+}
+
+.diferenciais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
