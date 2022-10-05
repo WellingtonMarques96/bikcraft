@@ -1,5 +1,5 @@
 .bicicletas-lista {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 120px;
 }
 
@@ -58,10 +58,15 @@
 
 @media (max-width: 800px) {
   .bicicletas-lista {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 60px;
   }
   .bicicletas-lista ul {
     gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-top: 0px;
   }
 }
