@@ -1,0 +1,44 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+}
+
+.seguros {
+}
+
+.seguros-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.seguros h2 {
+  padding-block: 60px;
+}
+
+.seguros-ouro,
+.seguros-prata {
+  background-color: var(--cor-12);
+  padding-left: 64px;
+  padding-top: 32px;
+  margin-bottom: 120px;
+}
+
+.seguros-prata {
+  height: 396px;
+  width: 560px;
+  align-self: center;
+}
+
+.seguros-ouro {
+  height: 484px;
+  width: 560px;
+}
+
+.seguros-conteudo li {
+  margin-bottom: 20px;
+}
+
+.seguros-conteudo h3 {
+  display: inline-block;
+  margin-bottom: 40px;
+}
