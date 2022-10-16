@@ -3,6 +3,7 @@
 @import url(./utilidades/cores.css);
 
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 /*--utilidades--*/
 @import url(./utilidades/componentes.css);
@@ -14,4 +15,3 @@
 @import url(./home/parceiros.css);
 @import url(./home/depoimentos.css);
 @import url(./home/seguros.css);
-@import url(./home/footer.css);
