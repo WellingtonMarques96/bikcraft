@@ -1,0 +1,53 @@
+.section-bg {
+  background-color: var(--cor-11);
+}
+
+.bicicleta-titulo {
+  padding-block: 60px;
+}
+
+.nimbus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.preco {
+  position: absolute;
+  padding: 8px;
+  background-color: var(--cor-12);
+  top: 135px;
+  left: 493px;
+}
+
+.nimbus-container {
+  display: grid;
+  gap: 32px;
+  padding: 16px 0px 0px 40px;
+  position: relative;
+}
+
+.nimbus-container h3::before {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 10px;
+  background: var(--cor-p1);
+  margin-top: -8px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.nimbus-vantagens li {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 12px;
+}
+
+.nimbus-container a {
+  position: absolute;
+  right: -50px;
+  bottom: 0px;
+}
