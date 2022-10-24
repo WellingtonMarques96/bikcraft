@@ -18,6 +18,7 @@
 
 /*---bicicletas---*/
 @import url(./Bicicletas/bicicletas.css);
+@import url(./Bicicletas/nimbus.css);
 
 /*---termos---*/
 @import url(/css/termos/termos.css);

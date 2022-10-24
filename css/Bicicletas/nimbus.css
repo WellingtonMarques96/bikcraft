@@ -1,0 +1,14 @@
+.informacoes {
+  background-color: var(--cor-12);
+}
+
+.informacoes ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 80px;
+}
+
+.informacoes li {
+  display: grid;
+  gap: 8px;
+}
