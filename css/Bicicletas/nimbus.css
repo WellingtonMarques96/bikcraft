@@ -13,16 +13,16 @@
   gap: 20px;
 }
 
-.imagens-bicicletas img{
+.imagens-bicicletas img {
   flex: 1;
   min-width: 200px;
 }
 
-.imagens-bicicletas img:first-child{
+.imagens-bicicletas img:first-child {
   min-width: 100%;
 }
 
-.bicicleta-conteudo > p{
+.bicicleta-conteudo > p {
   margin-bottom: 32px;
 }
 
@@ -54,7 +54,7 @@
   margin-bottom: 12px;
 }
 
-.informacoes-itens, 
+.informacoes-itens,
 .ficha-itens {
   background-color: var(--cor-12);
   padding: 32px;
@@ -90,16 +90,4 @@
 
 .ficha-itens span {
   color: var(--cor-6);
-}
-
-/*
-
-
-.ficha-tecnica {
-  grid-column: 2;
-}
-.ficha-itens {
-  background-color: var(--cor-12);
-  padding: 32px;
-  display: flex;
 }
