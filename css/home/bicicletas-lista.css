@@ -21,6 +21,10 @@
   overflow-x: auto;
 }
 
+#nimbus .bicicletas-lista ul {
+  padding-left: 0px;
+}
+
 .bicicletas-lista li {
   min-width: 280px;
 }
