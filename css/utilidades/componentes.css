@@ -18,6 +18,8 @@
   font-weight: 600;
   position: relative;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao::after {

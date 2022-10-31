@@ -42,7 +42,7 @@
       <section class="contato-dados" aria-label="Endereço">
         <h2 class="font-1-m cor-0">Loja Online</h2>
         <div class="contato-endereco font-2-s cor-4">
-          <p>Rua Ali Perto, 35</p>
+          <p>Rua Ali Perto, 25</p>
           <p>Rio de Janeiro - RJ</p>
           <p>Brasil - Terra - Vita Láctea</p>
         </div>
@@ -73,19 +73,57 @@
             <label for="telefone">Telefone</label>
             <input type="text" id="telefone" name="telefone" placeholder="(31)99999-9999">
           </div>
-          <div>
+          <div class="col-2">
             <label for="telefone">Email</label>
             <input type="email" id="email" name="email" placeholder="contato@email.com">
           </div>
-          <div>
+          <div class="col-2">
             <label for="nome">Mensagem</label>
             <textarea rows="5" id="mensagem" name="mensagem" placeholder="o que você precisa?"></textarea>
           </div>
-          <button class="botao">Enviar Mensagem</button>
+          <button class="col-2 botao">Enviar Mensagem</button>
         </form>
       </section>
     </div>
   </main>
+
+  <article class="container">
+    <div>
+      <h1 class="font-1-xxl cor-11">lojas locais<span class="cor-p1">.</span></h1>
+    </div>
+    <div class="lojas">
+      <div class="lojas-local">
+        <img src="/img/lojas/rj.jpg" alt="foto do mapa no Rio de Janeiro">
+        <div class="lojas-endereco">
+          <h2 class="font-1-xl cor-12">Rio de Janeiro</h2>
+          <div class="lojas-item">
+            <p class="font-2-s cor-8">Rua Ali Perto, 25</p>
+            <p class="font-2-s cor-8">Rio de Janeiro - RJ</p>
+          </div>
+          <address>
+            <a class="font-2-s cor-8" href="mailto:assistencia@bikcraft.com">rio@bikcraft.com</a>
+            <a class="font-2-s cor-8" href="tel:+55219999-9999">+55219999-9999</a>
+          </address>
+          <p>08-18h de seg à dom</p>
+        </div>
+      </div>
+      <div class="lojas-local">
+        <img src="/img/lojas/sp.jpg" alt="foto do mapa no Rio de Janeiro">
+        <div class="lojas-endereco">
+          <h2 class="font-1-xl cor-12">São Paulo</h2>
+          <div class="lojas-item">
+            <p class="font-2-s cor-8">Rua Ali Perto, 25</p>
+            <p class="font-2-s cor-8">São Paulo - SP</p>
+          </div>
+          <address>
+            <a class="font-2-s cor-8" href="mailto:assistencia@bikcraft.com">sp@bikcraft.com</a>
+            <a class="font-2-s cor-8" href="tel:+55219999-9999">+55119999-9999</a>
+          </address>
+          <p>08-18h de seg à dom</p>
+        </div>
+      </div>
+    </div>
+  </article>
 
   <footer class="footer-bg">
     <div class="container footer">
