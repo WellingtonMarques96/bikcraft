@@ -44,3 +44,27 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
+
+// Galeria de bicicletas. Foi criado um evento de clique para que sempre que escolher uma foto, ela se torne a principal entre as 3 do site. Pensando no mediaquery colocamos um filtro determinado para que só ocorra isso quando tiver uma foto principal efetivamente //
+
+const galeria = document.querySelectorAll(".imagens-bicicletas img");
+const galeriaContainer = document.querySelector(".imagens-bicicletas");
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width: 950px)").matches;
+  if (media) {
+    galeriaContainer.prepend(img);
+  }
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+//animação//
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
