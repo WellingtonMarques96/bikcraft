@@ -36,7 +36,7 @@ This is a solution to the HTML & Css Class on [Origamid](https://www.origamid.co
 
 ### What I learned
 
-Through this project I've learned all by first background as a Developer.
+Through this project I've learned all my first background as a Developer.
 
 ## Author
 
