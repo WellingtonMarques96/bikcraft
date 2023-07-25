@@ -1,5 +1,4 @@
-// Menu ativo. Faz com que o menu fique com o sublinhado branco embaixo do nome quando estivermos na página (foi adicionada a class "ativo" no header-menu //
-
+// Ativar Links do Menu
 const links = document.querySelectorAll(".header-menu a");
 
 function ativarLink(link) {
@@ -12,7 +11,7 @@ function ativarLink(link) {
 
 links.forEach(ativarLink);
 
-//ativar ítens do orçamento. Foi feito dentro da página de seguro  das bicicletas para que cada vez que clicar em uma opção de orçamento já abrir a página com a escolha que foi feita via URL  //
+// Ativar Items do Orçamento
 
 const parametros = new URLSearchParams(location.search);
 
@@ -25,8 +24,7 @@ function ativarProduto(parametro) {
 
 parametros.forEach(ativarProduto);
 
-// Perguntas Frequentes. Foram incluídos em todas as perguntas a acção de clicar para abrir ou fechar a caixinha de pergunta e resposta//
-
+// Perguntas Frequentes
 const perguntas = document.querySelectorAll(".perguntas button");
 
 function ativarPergunta(event) {
@@ -45,14 +43,13 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-// Galeria de bicicletas. Foi criado um evento de clique para que sempre que escolher uma foto, ela se torne a principal entre as 3 do site. Pensando no mediaquery colocamos um filtro determinado para que só ocorra isso quando tiver uma foto principal efetivamente //
-
-const galeria = document.querySelectorAll(".imagens-bicicletas img");
-const galeriaContainer = document.querySelector(".imagens-bicicletas");
+// Galeria de Bicicletas
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
 
 function trocarImagem(event) {
   const img = event.currentTarget;
-  const media = matchMedia("(min-width: 950px)").matches;
+  const media = matchMedia("(min-width: 1000px)").matches;
   if (media) {
     galeriaContainer.prepend(img);
   }
@@ -64,7 +61,7 @@ function eventosGaleria(img) {
 
 galeria.forEach(eventosGaleria);
 
-//animação//
+// Animação
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
